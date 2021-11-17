@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&family=Pacifico&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,700&display=swap');
+*{
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+main{
+
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    padding:40px;
+}
+.divh1{
+    grid-template-columns: 100;
+    background-color: orange;
+}
+.grid-aboutus{
+    background-color: orangered;
+    
+}
+
+.grid-aboutus p{
+    font-family: Montserrat ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 22px;
+
+
+}
+.grid-aboutus p e{
+    color: orange;
+    
+}
+.h1{
+    font-family: Montserrat ;
+    font-weight: 600;
+   
+}
+.grid-aboutus{
+    
+
+}
