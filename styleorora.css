@@ -92,7 +92,7 @@ p{
     grid-area: Abdullah;
 }
 .all-memebers{
-    margin-left: 100px;
+    margin-left: 240px;
     display: grid;
  grid-auto-columns: auto;
  display: grid;
@@ -101,15 +101,8 @@ grid-template-areas:
 "img p";
    
 }
-.descreption{
-   font-family:pa;
-font: 2rem sans-serif;
+                     /* FOOTER */ 
 
-}
-.Sraspectur{
-    margin-left: 100px;
-    border-radius:10px ;
-}
 .footer-wrapper{
     width: 100%;
     height: auto;
@@ -121,23 +114,8 @@ font: 2rem sans-serif;
     background-attachment: fixed;
     background-size: cover;
 }
-/* input{
+                          
 
-    color: black;
-    background-color: white;
-    margin-left: 1300PX;
-    border-radius :40px; 
-    width: 406px;
-    height: 48pX;
-}
-.button{
-    margin-top:-50px;
-   
-    
-
-
-
-} */
 .form-footer input[type="text"] {
     margin-top: 10px;
     width: 256px;
@@ -181,9 +159,9 @@ footer form input:hover{
     visibility: visible;
 }
 .nav-list li a:before {
-    content: "\f14f";
+   list-style: none;
     font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
+    color: #DEDEDE;
     display: inline-block;
     vertical-align: baseline;
     margin-left: -28px;
