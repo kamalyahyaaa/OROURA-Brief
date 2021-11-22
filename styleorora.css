@@ -147,6 +147,7 @@ header {
 }
 .detail {
   margin-top: 30px;
+ 
 }
 .rating-detail {
   display: grid;
@@ -170,4 +171,13 @@ header {
 .allmemebers {
   margin-top: 40px;
   margin-left: 120px;
+}
+.VEGAN-TITLE{
+  color: #ff7e00;
+  margin-top: 40px;
+  margin-left: 130px;
+  font-family: roboto,sans-serif;
+  
+
+
 }
