@@ -180,4 +180,67 @@ header {
   
 
 
+<<<<<<< HEAD
 }
+=======
+.form-footer input[type="text"] {
+    margin-top: 10px;
+    width: 256px;
+    height: 46pX;
+    margin-left:1250px ;
+    border: none;
+border-radius:16px 16px 16px 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+    
+    font-size: 20px;
+    padding-left: 10px;
+    font-style: italic;
+}
+footer form input:hover{
+    background-color: #e7e1db;
+}
+.form-footer input[type="submit"] {
+width: 200px;
+height: 50PX;
+border-radius: 16px 16px 16px 16px;
+color:white;
+background-color:#5FB924;
+
+}
+h5{
+    color: white;
+    font-size: 33px;
+   
+}
+
+
+    .containre{
+
+        display: grid;
+         grid-auto-columns: auto auto auto;
+        grid-template-areas: 
+        "links contact times location";
+}
+.links{
+    grid-area: links;
+}
+.contact{
+    grid-area: contact;
+}
+.times{
+    grid-area: times;
+}
+.img-a{
+    grid-area:location;
+
+}
+
+
+
+
+
+>>>>>>> 43607e95be2bc46f66e319a99634294803acf760
