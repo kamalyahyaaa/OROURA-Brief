@@ -122,12 +122,13 @@ grid-template-areas:
     height: 46pX;
     margin-left:1250px ;
     border: none;
-border-radius: 16px 0 0 16px;
+border-radius:16px 16px 16px 16px;
 outline: none;
 padding-left: 10px;
 
 }
 ::placeholder {
+    
     font-size: 20px;
     padding-left: 10px;
     font-style: italic;
@@ -135,39 +136,42 @@ padding-left: 10px;
 footer form input:hover{
     background-color: #e7e1db;
 }
-.form-footer input[type="button"] {
-    margin-top: 10px;
-    font-size: 25px;
-    width: 206px;
-    height: 46pX;
-    border: none;
-    background:#5FB924;
-        margin-left: -5px;
-    color: #fff;
-    outline: none;
-    border-radius:0px 16px 16px 0px;
-    padding: 2px 12px;
+.form-footer input[type="submit"] {
+width: 200px;
+height: 50PX;
+border-radius: 16px 16px 16px 16px;
+color:white;
+background-color:#5FB924;
+
 }
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+h5{
+    color: white;
+    font-size: 33px;
+   
 }
 
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
+
+    .containre{
+
+        display: grid;
+         grid-auto-columns: auto auto auto;
+        grid-template-areas: 
+        "links contact times location";
 }
-.nav-list li a:before {
-   list-style: none;
-    font: 400 21px/1 "Material Design Icons";
-    color: #DEDEDE;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
+.links{
+    grid-area: links;
 }
+.contact{
+    grid-area: contact;
+}
+.times{
+    grid-area: times;
+}
+.img-a{
+    grid-area:location;
+
+}
+
+
+
 
