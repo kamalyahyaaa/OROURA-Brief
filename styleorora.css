@@ -6,8 +6,7 @@
   list-style: none;
   text-decoration: none;
 }
-body {
-}
+
 
 /* HEADER NAV BAR */
 
@@ -20,13 +19,12 @@ nav {
   height: 90px;
   border-bottom: 4px solid #ff7e00;
 }
-#logohome {
-}
+
 nav ul {
-  float: right;
+  
   justify-content: space-between;
   align-items: left;
-  padding-left: 600px;
+  
 }
 
 nav ul li {
@@ -43,6 +41,7 @@ nav ul li a {
 .navbarlinks {
   display: flex;
   flex-direction: row;
+  
 }
 a:hover {
   color: #ff7e00;
@@ -63,6 +62,7 @@ header {
   background-size: cover;
   height: 900px;
   width: 100%;
+  
 }
 .welcome {
   color: white;
@@ -78,9 +78,10 @@ header {
 }
 
 .btnmenu {
+  
+  
   padding: 7px 11px;
   background-color: transparent;
-  position: absolute;
   border: 1.9px solid;
   border-radius: 30px;
   cursor: pointer;
@@ -90,11 +91,20 @@ header {
   font-size: 24px;
   height: 56px;
   width: 190px;
-  margin-left: 670px;
-  margin-top: 150px;
+ 
 }
 .btnmenu:hover {
   color: #ff7e00;
+}
+.btncenter{
+  margin: auto;
+  position: absolute;
+  top: 100%;
+  right: 43%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+
 }
 
 
@@ -169,16 +179,7 @@ header {
   color:#ff7e00;
 }
 
-@media only screen and (max-width: 700px) {
-  .navlinksdesktop {
-    display: none;
-  }
 
-  #hamburger-icon {
-    display: block;
-  }
-  
-}
 /* menu icone */
 /* HEADER NAV BAR */
 
@@ -314,7 +315,7 @@ h5 {
 footer {
   background: url(./assets/footer.jpg) no-repeat;
   background-size: cover;
-  position: ;
+  /* position: ; */
   height: 697px;
   width: 100%;
 }
@@ -403,6 +404,26 @@ footer {
 .openingtime p{
   margin-left: 60px;
 }
-.{
 
+
+
+@media only screen and (max-width: 700px) {
+  .navlinksdesktop {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  .btncenter{
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    right: 34%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+  
+  }
+  
 }
