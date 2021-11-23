@@ -162,6 +162,35 @@ header {
 .nav-links li a:hover {
   color: #ff7e00;
 }
+        /* jvscrip slider */
+        .slider-container{
+          position:relative;
+          width: 100%;
+
+        }
+        .slide img{
+          width: 100%;
+        }
+        .arrow{
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          color: black;
+          background-color:rgb(241, 233, 233);
+          padding:8px 19px;
+          border-radius: 48%;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .next{
+          right:10px
+        }
+        .prec{
+          left:10px
+        }
+        .slide{
+          display:none;
+        }
 
 /* menu icone */
 /* HEADER NAV BAR */
@@ -185,6 +214,81 @@ header {
 .grid-aboutus p e {
   color: orange;
 }
+.DETAILS-part {
+  font-family: Montserrat, sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 448px;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 19px;
+ 
+}
+
+.DETAILS-part P{
+margin-left: 23px;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+
+}
+.DETAILS-part h1{
+  margin-top: 10px;
+ font-size: 33px;
+width: 100%;
+margin-left: 200px;
+}
+.details h2{
+
+  margin-left: 15px;
+ }
+ .titls{
+   
+   font-family: Montserrat, sans-serif;
+   font-size :22px;
+   Font-style: Bold;
+  
+   
+ }
+ .linebetween3{
+ 
+   width: 1px;
+   height: 270px;
+   background-color: black;
+   margin-top: 50px;
+ 
+ }
+ .rating-detail {
+   display: grid;
+   grid-template-columns: auto auto;
+   
+ }
+ 
+ .DETAILS-part{
+   display: grid;
+   grid-template-columns: auto auto  auto;
+   line-height: 2;
+ }
+ .features{
+  
+   margin-top:75px;
+   line-height: 2;
+ }
+ .ratings {
+   margin-left: 90px;
+   margin-top: 30px;
+ }
+ .detail {
+   margin-top: 30px;
+  
+ }
+ .rating-detail {
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+
+
+
+
 
 .h1 {
   font-family: Montserrat, sans-serif;
