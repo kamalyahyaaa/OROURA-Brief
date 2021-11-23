@@ -549,6 +549,105 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
+/* comments */
+.Sara{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.saras-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.saras-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.salim{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.salim-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.salim-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.zinbe{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.zinbe-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.zinbe-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rachid{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.rachid-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rachid-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.com{
+  margin-top: 50px;
+  font-family: Montserrat, sans-serif;
+  margin-left: 700px;
+  text-decoration: underline 2px;
+  text-decoration-color: #ff7e00;
+  text-underline-offset: 0.5rem;
+
+}
 
 /* aicha work */
 /* foooterstart */
