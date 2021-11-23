@@ -97,6 +97,89 @@ header {
   color: #ff7e00;
 }
 
+
+
+/* menu icone */
+#hamburger-icon {
+  position: relative;
+  float: right;
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+
+}
+
+#hamburger-icon div {
+  
+  width: 35px;
+  height: 3px;
+  background-color:#04BD70;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+.nav-links {
+  font-family: Pacifico, sans-serif;
+  font-weight: 500;
+  color: #5fb924;
+  font-size: 18px;
+  border: 3px solid #ff7e00;
+  border-top: white;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+
+  height: calc(40vh - 40px);
+  width: 1000%;
+  background-color:white;
+}
+
+.nav-links li {
+  margin-bottom: 10px;
+  
+}
+.nav-links li a{
+  text-decoration: none;
+  color:#5FB924;
+}
+.nav-links li a:hover{
+  color:#ff7e00;
+}
+
+@media only screen and (max-width: 700px) {
+  .navlinksdesktop {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  
+}
+/* menu icone */
 /* HEADER NAV BAR */
 
 .gridcontainer {
@@ -123,6 +206,9 @@ header {
 }
 .grid-restaurant-images {
 }
+
+
+
 .h1 {
   font-family: Montserrat, sans-serif;
   font-weight: 700;

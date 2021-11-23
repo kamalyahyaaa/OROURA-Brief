@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styleorora.css" />
+    <script src="./ourora.js"></script>
     <title>ORORA</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="logohome">
-          <img id="logohome" src="./assets/Group 7.svg" alt="" />
+         <a href="./orora.html"> <img id="logohome" src="./assets/Group 7.svg"  alt="" /></a>
         </div>
-
+        <div class="navlinksdesktop">
         <ul class="navbarlinks">
           <li><a class="active" href="#aboutus">About Us</a></li>
           <div class="linebetween"></div>
@@ -23,7 +24,25 @@
           <div class="linebetween"></div>
           <li><a href="">Our Restaurants</a></li>
         </ul>
+        </div>
+
       </nav>
+      <!-- HAMBURGER ICONE -->
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="nav-links">
+            <li> <a href="#aboutus">About Us</a></li>
+            <li> <a href="#ourteam">Our team</a></li>
+            <li>   <a href="#">Contact us</a></li>
+            <li>   <a href="#">Our Restaurants</a></li>
+          
+
+         
+        </ul>
+      </div>
+       <!-- HAMBURGER ICONE END -->
     </header>
     <div class="parent">
       <h1 class="welcome">
@@ -48,8 +67,12 @@
             by friendly, courteous staff.”
           </p>
         </div>
-        <div class="grid-restaurant-images">
-          <img src="./assets/g-g-interior.jpg" alt="" />
+        <div class="grid-restaurant-images" id="slider">
+          <figure>
+          <img src="" alt="" />
+          
+
+        </figure>
         </div>
       </div>
       <div class="linebetween2"></div>
@@ -84,28 +107,28 @@
         </div>
         <div class="contactusfooter">
           <h1>CONTACT US</h1>
-          <br>
+          <br />
           <li class="tele"><a href="#">0519657398</a></li>
           <li class="email"><a href="#">Orouraresto@gmail.com</a></li>
-          <li class="victor-adrss"><a href="#">Plage Sidi Kacem direction
-            Grottes d’Hercule, Tanger Maroc </a></li>
-            <img src="./assets/restaurant maps.png" alt="">
+          <li class="victor-adrss">
+            <a href="#"
+              >Plage Sidi Kacem direction Grottes d’Hercule, Tanger Maroc
+            </a>
+          </li>
+          <img src="./assets/restaurant maps.png" alt="" />
         </div>
         <div class="openingtime">
           <h1>Opening Times</h1>
-          <z class="hours"> Hours:</z><br>
+          <z class="hours"> Hours:</z><br />
           <p>
-            Monday	12:30PM–1:30AM <br>
-            Tuesday	12:30PM–1:30AM <br>
-            Wednesday	12:30PM–1:30AM <br>
-            Thursday	12:30PM–1:30AM <br>
-            Friday	12:30PM–1:30AM <br>
-            Saturday	12:30PM–1:30AM <br>
-            Sunday	12:30PM–1:30AM <br>
-            </p>
-      
-         
-
+            Monday 12:30PM–1:30AM <br />
+            Tuesday 12:30PM–1:30AM <br />
+            Wednesday 12:30PM–1:30AM <br />
+            Thursday 12:30PM–1:30AM <br />
+            Friday 12:30PM–1:30AM <br />
+            Saturday 12:30PM–1:30AM <br />
+            Sunday 12:30PM–1:30AM <br />
+          </p>
         </div>
       </div>
     </footer>
