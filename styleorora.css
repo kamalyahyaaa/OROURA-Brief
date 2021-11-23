@@ -7,7 +7,6 @@
   text-decoration: none;
 }
 
-
 /* HEADER NAV BAR */
 
 nav {
@@ -21,10 +20,8 @@ nav {
 }
 
 nav ul {
-  
   justify-content: space-between;
   align-items: left;
-  
 }
 
 nav ul li {
@@ -41,7 +38,6 @@ nav ul li a {
 .navbarlinks {
   display: flex;
   flex-direction: row;
-  
 }
 a:hover {
   color: #ff7e00;
@@ -62,7 +58,6 @@ header {
   background-size: cover;
   height: 900px;
   width: 100%;
-  
 }
 .welcome {
   color: white;
@@ -78,8 +73,6 @@ header {
 }
 
 .btnmenu {
-  
-  
   padding: 7px 11px;
   background-color: transparent;
   border: 1.9px solid;
@@ -91,23 +84,18 @@ header {
   font-size: 24px;
   height: 56px;
   width: 190px;
- 
 }
 .btnmenu:hover {
   color: #ff7e00;
 }
-.btncenter{
+.btncenter {
   margin: auto;
   position: absolute;
   top: 100%;
   right: 43%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  
-
 }
-
-
 
 /* menu icone */
 #hamburger-icon {
@@ -116,14 +104,12 @@ header {
   margin: auto 0;
   display: none;
   cursor: pointer;
-
 }
 
 #hamburger-icon div {
-  
   width: 35px;
   height: 3px;
-  background-color:#04BD70;
+  background-color: #04bd70;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -147,7 +133,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  
 }
 
 .nav-links {
@@ -164,21 +149,48 @@ header {
 
   height: calc(40vh - 40px);
   width: 1000%;
-  background-color:white;
+  background-color: white;
 }
 
 .nav-links li {
   margin-bottom: 10px;
-  
 }
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
-  color:#5FB924;
+  color: #5fb924;
 }
-.nav-links li a:hover{
-  color:#ff7e00;
+.nav-links li a:hover {
+  color: #ff7e00;
 }
+        /* jvscrip slider */
+        .slider-container{
+          position:relative;
+          width: 100%;
 
+        }
+        .slide img{
+          width: 100%;
+        }
+        .arrow{
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          color: black;
+          background-color:rgb(241, 233, 233);
+          padding:8px 19px;
+          border-radius: 48%;
+          font-size: 25px;
+          font-weight: bold;
+        }
+        .next{
+          right:10px
+        }
+        .prec{
+          left:10px
+        }
+        .slide{
+          display:none;
+        }
 
 /* menu icone */
 /* HEADER NAV BAR */
@@ -191,8 +203,6 @@ header {
   margin: 44px 110px 0px 170px;
 }
 
-
-
 .grid-aboutus p {
   font-family: Montserrat;
   font-weight: 300;
@@ -204,6 +214,79 @@ header {
 .grid-aboutus p e {
   color: orange;
 }
+.DETAILS-part {
+  font-family: Montserrat, sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 448px;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 19px;
+ 
+}
+
+.DETAILS-part P{
+margin-left: 23px;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+
+}
+.DETAILS-part h1{
+  margin-top: 10px;
+ font-size: 33px;
+width: 100%;
+margin-left: 200px;
+}
+.details h2{
+
+  margin-left: 15px;
+ }
+ .titls{
+   
+   font-family: Montserrat, sans-serif;
+   font-size :22px;
+   Font-style: Bold;
+  
+   
+ }
+ .linebetween3{
+ 
+   width: 1px;
+   height: 270px;
+   background-color: black;
+   margin-top: 50px;
+ 
+ }
+ .rating-detail {
+   display: grid;
+   grid-template-columns: auto auto;
+   
+ }
+ 
+ .DETAILS-part{
+   display: grid;
+   grid-template-columns: auto auto  auto;
+   line-height: 2;
+ }
+ .features{
+  
+   margin-top:75px;
+   line-height: 2;
+ }
+ .ratings {
+   margin-left: 90px;
+   margin-top: 30px;
+ }
+ .detail {
+   margin-top: 30px;
+  
+ }
+ .rating-detail {
+   display: grid;
+   grid-template-columns: auto auto;
+ }
+
+
 
 
 
@@ -254,297 +337,278 @@ header {
   margin-top: 40px;
   margin-left: 120px;
 }
-            .VEGAN-TITLE {
-              color: #ff7e00;
-              margin-top: 40px;
-              margin-left: 130px;
-              font-family: roboto, sans-serif;
-            }
+.VEGAN-TITLE {
+  color: #ff7e00;
+  margin-top: 40px;
+  margin-left: 130px;
+  font-family: roboto, sans-serif;
+}
 
-            .form-footer input[type="text"] {
-              margin-top: 10px;
-              width: 256px;
-              height: 46px;
-              margin-left: 1250px;
-              border: none;
-              border-radius: 16px 16px 16px 16px;
-              outline: none;
-              padding-left: 10px;
-            }
-            ::placeholder {
-              font-size: 20px;
-              padding-left: 10px;
-              font-style: italic;
-            }
-            footer form input:hover {
-              background-color: #e7e1db;
-            }
-            .form-footer input[type="submit"] {
-              width: 200px;
-              height: 50px;
-              border-radius: 16px 16px 16px 16px;
-              color: white;
-              background-color: #5fb924;
-            }
-            h5 {
-              color: white;
-              font-size: 33px;
-            }
+.form-footer input[type="text"] {
+  margin-top: 10px;
+  width: 256px;
+  height: 46px;
+  margin-left: 1250px;
+  border: none;
+  border-radius: 16px 16px 16px 16px;
+  outline: none;
+  padding-left: 10px;
+}
+::placeholder {
+  font-size: 20px;
+  padding-left: 10px;
+  font-style: italic;
+}
+footer form input:hover {
+  background-color: #e7e1db;
+}
+.form-footer input[type="submit"] {
+  width: 200px;
+  height: 50px;
+  border-radius: 16px 16px 16px 16px;
+  color: white;
+  background-color: #5fb924;
+}
+h5 {
+  color: white;
+  font-size: 33px;
+}
 
-            .containre {
-              display: grid;
-              grid-auto-columns: auto auto auto;
-              grid-template-areas: "links contact times location";
-            }
-            .links {
-              grid-area: links;
-            }
-            .contact {
-              grid-area: contact;
-            }
-            .times {
-              grid-area: times;
-            }
-            .img-a {
-              grid-area: location;
-            }
-            /* aicha work */
-            .TITLE{
-              color: #ff7e00;
-              margin-top: 40px;
-              margin-left: 130px;
-              font-family: roboto,sans-serif;
-            }
-            h3{
-              color:#5FB924;
-              margin-left:700px;
-              font-style: Bold;
-              font-size: 33px;
-            }
-            .PRICE{
-              color:black;
-              margin-left:1235px;
-              font-style: Medium;
-              font-size: 44px;
-              margin-top: -60px;
-              font-family:Rubik ,sans-serif;
-
-
-            }
-            .VEGAN-Oroura-Sushi{
-              height: 284px;
-            width: 90%;
-            border: 1px solid;
-            border-radius: 19px;
-
-
-
-            }
-            .ingredient{
-              display: flex;
-              flex-direction: column;
-            }
-            h5{
-              margin-top:40px ;
-              font-size: 24px;
-            font-style: Bold;
-            line-height: 2;
-            }
-            p{
-              font-size: 24px;
-              line-height: 1,7;
-            }
-            .img{
-              border-radius: 19px;
-              width: 357px;
-              height: 284px;
-              margin-top: -40px;
-            }
-            .Sushi{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .VEGAN-BLACK-BEAN-BURGER{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .burger-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .burger{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .SWEETPOTATO-AND-ONION{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .potato-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .potato{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .btn {
-              padding: 7px 20px;
-              background-color: transparent;
-              position: absolute;
-              border: 1.9px solid;
-              border-radius: 30px;
-              margin-left: 50%;
-              box-shadow: 0px 3px #ff7e00;
-            
-            }
-            .btn:hover {
-            
-              border: 3px solid;
-              color: #ff7e00;
-              
-            }
-            .SALAMON{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .Salmon-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .salmon{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .OROURA-CHIKEN{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .chiken-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .chiken{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .BEEF-MEAT-AND-BROCOLI{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .beef-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .beef{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .YOOW-APPLE{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .YOOW-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .yoow-apple{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .CHOCOLATE-WAFFLE{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .waffle-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .waffle{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .NATUREL-YOGURT-Berry {
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .yogurt-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .yogurt{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .SPINASH-JUICE-WITH-BANANA {
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .banana-juice-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .banana-juice{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .PINEAPPLE-JUICE{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .pineapple-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .pineapple{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
-            .barba-juice{
-              margin-top: 20px;
-              height: 284px;
-            border: 1px solid;
-            border-radius: 19px;
-            }
-            .BARBA-ingredient{
-
-              display: flex;
-              flex-direction: column;
-            }
-            .barba{
-              display: grid;
-              grid-template-columns: auto auto auto;
-            }
+.containre {
+  display: grid;
+  grid-auto-columns: auto auto auto;
+  grid-template-areas: "links contact times location";
+}
+.links {
+  grid-area: links;
+}
+.contact {
+  grid-area: contact;
+}
+.times {
+  grid-area: times;
+}
+.img-a {
+  grid-area: location;
+}
+/* aicha work */
+.TITLE {
+  color: #ff7e00;
+  margin-top: 40px;
+  margin-left: 130px;
+  font-family: roboto, sans-serif;
+}
+h3 {
+  color: #5fb924;
+  margin-left: 700px;
+  font-style: Bold;
+  font-size: 33px;
+}
+.PRICE {
+  color: black;
+  margin-left: 1235px;
+  font-style: Medium;
+  font-size: 44px;
+  margin-top: -60px;
+  font-family: Rubik, sans-serif;
+}
+.VEGAN-Oroura-Sushi {
+  height: 284px;
+  width: 90%;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.ingredient {
+  display: flex;
+  flex-direction: column;
+}
+h5 {
+  margin-top: 40px;
+  font-size: 24px;
+  font-style: Bold;
+  line-height: 2;
+}
+p {
+  font-size: 24px;
+  line-height: 1, 7;
+}
+.img {
+  border-radius: 19px;
+  width: 357px;
+  height: 284px;
+  margin-top: -40px;
+}
+.Sushi {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.VEGAN-BLACK-BEAN-BURGER {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.burger-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.burger {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.SWEETPOTATO-AND-ONION {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.potato-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.potato {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.btn {
+  padding: 7px 20px;
+  background-color: transparent;
+  position: absolute;
+  border: 1.9px solid;
+  border-radius: 30px;
+  margin-left: 50%;
+  box-shadow: 0px 3px #ff7e00;
+}
+.btn:hover {
+  border: 3px solid;
+  color: #ff7e00;
+}
+.SALAMON {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.Salmon-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.salmon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.OROURA-CHIKEN {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.chiken-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.chiken {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.BEEF-MEAT-AND-BROCOLI {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.beef-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.beef {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.YOOW-APPLE {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.YOOW-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.yoow-apple {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.CHOCOLATE-WAFFLE {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.waffle-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.waffle {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.NATUREL-YOGURT-Berry {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.yogurt-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.yogurt {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.SPINASH-JUICE-WITH-BANANA {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.banana-juice-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.banana-juice {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.PINEAPPLE-JUICE {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.pineapple-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.pineapple {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.barba-juice {
+  margin-top: 20px;
+  height: 284px;
+  border: 1px solid;
+  border-radius: 19px;
+}
+.BARBA-ingredient {
+  display: flex;
+  flex-direction: column;
+}
+.barba {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 
 /* aicha work */
  HEAD
@@ -983,6 +1047,8 @@ margin-left: -400px;
 
 
 
+
+
 @media only screen and (max-width: 700px) {
   .navlinksdesktop {
     display: none;
@@ -991,14 +1057,12 @@ margin-left: -400px;
   #hamburger-icon {
     display: block;
   }
-  .btncenter{
+  .btncenter {
     margin: auto;
     position: absolute;
     top: 100%;
     right: 34%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    
-  
   }
 }
