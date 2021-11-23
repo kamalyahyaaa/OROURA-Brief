@@ -611,6 +611,441 @@ p {
 }
 
 /* aicha work */
+ HEAD
+.TITLE{
+  color: #ff7e00;
+  margin-top: 40px;
+  margin-left: 130px;
+  font-family: roboto,sans-serif;
+}
+h3{
+  color:#5FB924;
+  margin-left:700px;
+  font-style: Bold;
+  font-size: 33px;
+}
+.PRICE{
+  color:black;
+  margin-left:1235px;
+  font-style: Medium;
+  font-size: 44px;
+  margin-top: -60px;
+  font-family:Rubik ,sans-serif;
+
+
+}
+.VEGAN-Oroura-Sushi{
+  height: 284px;
+width: 90%;
+border: 1px solid;
+border-radius: 19px;
+
+
+
+}
+.ingredient{
+  display: flex;
+  flex-direction: column;
+}
+h5{
+  margin-top:40px ;
+  font-size: 24px;
+font-style: Bold;
+line-height: 2;
+}
+p{
+  font-size: 24px;
+  line-height: 1,7;
+}
+.img{
+  border-radius: 19px;
+  width: 357px;
+  height: 284px;
+  margin-top: -40px;
+}
+.Sushi{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.VEGAN-BLACK-BEAN-BURGER{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.burger-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.burger{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.SWEETPOTATO-AND-ONION{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.potato-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.potato{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.btn {
+  padding: 7px 20px;
+  background-color: transparent;
+  position: absolute;
+  border: 1.9px solid;
+  border-radius: 30px;
+  margin-left: 50%;
+  box-shadow: 0px 3px #ff7e00;
+ 
+}
+.btn:hover {
+ 
+  border: 3px solid;
+  color: #ff7e00;
+  
+}
+.SALAMON{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.Salmon-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.salmon{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.OROURA-CHIKEN{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.chiken-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.chiken{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.BEEF-MEAT-AND-BROCOLI{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.beef-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.beef{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.YOOW-APPLE{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.YOOW-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.yoow-apple{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.CHOCOLATE-WAFFLE{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.waffle-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.waffle{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.NATUREL-YOGURT-Berry {
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.yogurt-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.yogurt{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.SPINASH-JUICE-WITH-BANANA {
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.banana-juice-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.banana-juice{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.PINEAPPLE-JUICE{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.pineapple-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.pineapple{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.barba-juice{
+  margin-top: 20px;
+  height: 284px;
+border: 1px solid;
+border-radius: 19px;
+}
+.BARBA-ingredient{
+
+  display: flex;
+  flex-direction: column;
+}
+.barba{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* comments */
+.Sara{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.saras-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.saras-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.salim{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.salim-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.salim-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.zinbe{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.zinbe-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.zinbe-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rachid{
+  width: 100px;
+  height: 100PX;
+  border-radius: 360PX;
+}
+.rachid-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.rachid-comment P{
+margin-left: -400px;
+  margin-top: 20px;
+  font-size: small;
+  font-family: roboto, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.com{
+  margin-top: 50px;
+  font-family: Montserrat, sans-serif;
+  margin-left: 700px;
+  text-decoration: underline 2px;
+  text-decoration-color: #ff7e00;
+  text-underline-offset: 0.5rem;
+
+}
+
+/* aicha work */
+/* foooterstart */
+.footer {
+  background: url(./assets/footer.jpg) no-repeat;
+  background-size: cover;
+  /* position: ; */
+  height: 697px;
+  width: 100%;
+}
+.sitelinks {
+  position: absolute;
+  margin-top: 140px;
+}
+.sitelinks li {
+  list-style: inside url(./assets/Vector\ list\ style.png);
+  margin-left: 90px;
+}
+.sitelinks li a {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 3.4;
+  margin-left: 7px;
+}
+.sitelinks li a:hover {
+  color: #ff7e00;
+}
+.footercontainer {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 300px 90px auto;
+  grid-template-areas:
+    "h h h h h"
+    "j j j j j"
+    "d d d d d";
+}
+.contactusfooter {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 400px;
+  
+}
+.contactusfooter li a {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 17px;
+  
+  margin-left: 7px;
+  color: white;
+  line-height: 3.4;
+}
+.victor-adrss {
+  list-style-image: url(./assets/Vector-adrss.png);
+  margin-left: 0px;
+}
+.tele {
+  list-style-image: url(./assets/Vector-tele.png);
+  margin-left: 0px;
+}
+.email {
+  list-style-image: url(./assets/Vector-email.png);
+  margin-left: 0px;
+}
+.openingtime {
+  
+  color: white;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 950px;
+  grid-area: "d";
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 2;
+  
+
+  
+
+
+}
+.hours{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 00;
+}
+.openingtime p{
+  margin-left: 60px;
+}
+/* footerend */
+
+
+
 
 
 
