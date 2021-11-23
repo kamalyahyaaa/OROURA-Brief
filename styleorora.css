@@ -191,8 +191,7 @@ header {
   margin: 44px 110px 0px 170px;
 }
 
-.grid-aboutus {
-}
+
 
 .grid-aboutus p {
   font-family: Montserrat;
@@ -204,8 +203,6 @@ header {
 }
 .grid-aboutus p e {
   color: orange;
-}
-.grid-restaurant-images {
 }
 
 
@@ -219,8 +216,7 @@ header {
   text-decoration-color: #ff7e00;
   text-underline-offset: 0.5em;
 }
-.grid-aboutus {
-}
+
 .linebetween2 {
   margin-left: 400px;
   width: 700px;
