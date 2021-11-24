@@ -19,7 +19,15 @@ nav {
   border-bottom: 4px solid #ff7e00;
 }
 
+
 nav ul {
+      top: 0;
+    bottom: 0;
+    right: 0;
+    letter-spacing: 1.2px;
+    position:absolute;
+    float: right;
+  
   justify-content: space-between;
   align-items: left;
 }
@@ -49,8 +57,10 @@ a:hover {
   margin-top: 12px;
 }
 
-header {
-  height: 90px;
+header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 .parent {
@@ -98,12 +108,16 @@ header {
 }
 
 /* menu icone */
+
 #hamburger-icon {
   position: relative;
-  float: right;
-  margin: auto 0;
+  float: left;
+  left: 30%;
+  margin: auto;
   display: none;
   cursor: pointer;
+  
+
 }
 
 #hamburger-icon div {
@@ -154,43 +168,102 @@ header {
 
 .nav-links li {
   margin-bottom: 10px;
+  line-height: 2;
 }
 .nav-links li a {
   text-decoration: none;
   color: #5fb924;
+
 }
 .nav-links li a:hover {
   color: #ff7e00;
 }
-        /* jvscrip slider */
-        .slider-container{
-          position:relative;
-          width: 100%;
-
-        }
-        .slide img{
-          width: 100%;
-        }
-        .arrow{
-          cursor: pointer;
-          position: absolute;
-          top: 40%;
-          color: black;
-          background-color:rgb(241, 233, 233);
-          padding:8px 19px;
-          border-radius: 48%;
-          font-size: 25px;
-          font-weight: bold;
-        }
-        .next{
-          right:10px
-        }
-        .prec{
-          left:10px
-        }
-        .slide{
-          display:none;
-        }
+                  /* jvscrip slider */
+                  * {box-sizing: border-box}
+                  
+                  .mySlides {display: non}
+                  img {vertical-align: middle;}
+                  
+                  /* Slideshow container */
+                  .slideshow-container {
+                    max-width: 1000px;
+                    position: relative;
+                    margin: auto;
+                  }
+                  
+                  /* Next & previous buttons */
+                  .prev, .next {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    width: auto;
+                    padding: 16px;
+                    margin-top: -44px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 40px;
+                    transition: 0.6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                  }
+                  
+                  /* Position the "next button" to the right */
+                  .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                  }
+                  
+                  /* On hover, add a black background color with a little bit see-through */
+                  .prev:hover, .next:hover {
+                    background-color:#ff7e00(0,0,0,0.8);
+                  }
+                  
+                  /* Caption text */
+                  
+                  
+                  /* Number text (1/3 etc) */
+                  .numbertext {
+                    color: #f2f2f2;
+                    font-size: 12px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    top: 0;
+                  }
+                  
+                  /* The dots/bullets/indicators */
+                  .dot {
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #c1f79d;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                  }
+                  
+                  .active, .dot:hover {
+                    background-color: #5fb924;
+                  }
+                  
+                  /* Fading animation */
+                  .fade {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                  }
+                  
+                  @-webkit-keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                  }
+                  
+                  @keyframes fade {
+                    from {opacity: .4} 
+                    to {opacity: 1}
+                  }
+                  
 
 /* menu icone */
 /* HEADER NAV BAR */
@@ -1028,6 +1101,8 @@ margin-left: -400px;
 
   #hamburger-icon {
     display: block;
+   
+    
   }
   .btncenter {
     margin: auto;
@@ -1148,6 +1223,7 @@ margin-left: -400px;
       }
   
 }
+
 
 @media only screen and (min-width: 300px) {
   .TITLE {
@@ -1338,3 +1414,25 @@ margin-left: -400px;
         margin-left: 5px;
       }
     }
+
+@media only screen and (max-width: 600px){
+#hamburger-icon {
+  position: relative;
+  left:28%;
+  margin: auto;
+ 
+  
+
+}
+}
+@media only screen and (max-width: 530px){
+  #hamburger-icon {
+    position: relative;
+    left:24%;
+    margin: auto;
+   
+    
+  
+  }
+}
+
