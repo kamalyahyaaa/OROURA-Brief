@@ -303,6 +303,8 @@ header{
   color: orange;
 }
 .DETAILS-part {
+  display: grid;
+  grid-template-columns: auto auto auto;
   font-family: Montserrat, sans-serif;
   margin-top: 30px;
   margin-left: 10px;
@@ -337,14 +339,14 @@ margin-left: 200px;
   
    
  }
- .linebetween3{
- 
-   width: 1px;
-   height: 270px;
-   background-color: black;
-   margin-top: 50px;
- 
- }
+
+
+.linebetween3 {
+    width: 1px;
+    height: 264px;
+    background-color: black;
+    margin-top: 116px;
+}
  .rating-detail {
    display: grid;
    grid-template-columns: auto auto;
@@ -411,7 +413,7 @@ margin-left: 200px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   padding-top: 24px;
-  margin-left: 700px;
+  text-align: center;
   text-decoration: underline 2px;
   text-decoration-color: #ff7e00;
   text-underline-offset: 0.5rem;
@@ -1120,6 +1122,40 @@ margin-left: -400px;
     display: none;
   
   }
+  .linebetween2 {
+    display: none;
+  }
+  .linebetween3 {
+    width: 200PX;
+    height: 1px;
+    background-color: black;
+    margin-top: 1px;
+    margin-left: 25%;
+    
+}
+.DETAILS-part {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: Montserrat, sans-serif;
+  margin-top: 30px;
+  margin-left: 90px;
+  height: 448px;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 19px;
+ height:750px;
+ 
+}
+.details h1{
+
+}
+.features{
+  
+  margin-left:10px;
+  margin-top: 0px;
+  line-height: 2;
+  
+}
 
 
   #hamburger-icon {
