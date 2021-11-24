@@ -190,7 +190,9 @@ header{
                   * {box-sizing: border-box}
                   
                   .mySlides {display: non}
-                  img {vertical-align: middle;}
+                  .slideshow-container img {vertical-align: middle;
+                    border-radius: 30px;
+                  }
                   
                   /* Slideshow container */
                   .slideshow-container {
