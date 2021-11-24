@@ -424,9 +424,11 @@ margin-left: 200px;
   margin-top: 40px;
   margin-left: 100px;
 }
-.allmemebers {
-  margin-top: 40px;
-  margin-left: 120px;
+.allmemebers img {
+  margin-left: 8%;
+
+
+  
 }
 .VEGAN-TITLE {
   color: #ff7e00;
@@ -473,12 +475,7 @@ p {
   font-size: 24px;
   line-height: 1, 7;
 }
-.img {
-  border-radius: 19px;
-  width: 357px;
-  height: 284px;
-  margin-top: -40px;
-}
+
 .Sushi {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -1035,9 +1032,7 @@ margin-left: -400px;
  height:750px;
  
 }
-.details h1{
 
-}
 .features{
   
   margin-left:10px;
@@ -1072,9 +1067,7 @@ margin-left: -400px;
     margin-top: 40px;
     margin-left: 100px;
   }
-  .chefx{
   
-  }
   .ratings{
     width: 355px;
     margin-right:70px ;
@@ -1330,14 +1323,184 @@ margin-left: -400px;
 
 }
 }
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 500px){
   #hamburger-icon {
     position: relative;
     left:24%;
     margin: auto;
+
+  }
+  .DETAILS-part {
+    display: block;
+    grid-template-columns: auto auto auto;
+    font-family: Montserrat, sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 648px;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 19px;
+    font-size: 10px; ;
    
+  }
+  .grid-aboutus p {
+    font-family: Montserrat;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 10px;  
+    line-height: 1.9;
+  }
+  #aboutus{
+    margin-left: 35%;
+  }
+  .chefx{
+    margin-left:-50PX ;
+
+  }
+  .imgallmemeber{
+    width:450px;
+    margin-left:20px;
+   }
+   .gridcontainer {
+     width: 100%;
+    display:block;
+    margin-left: 1%;
     
-  
+  }
+  .gridcontainer img{
+    width: 00px;
   }
 }
+@media only screen and (max-width: 500px){
+  #hamburger-icon {
+    position: relative;
+    left:24%;
+    margin: auto;
 
+  }
+  .DETAILS-part {
+    display: block;
+    grid-template-columns: auto auto auto;
+    font-family: Montserrat, sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 648px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 19px;
+    font-size: 10px; ;
+   
+  }
+  .grid-aboutus p {
+    font-family: Montserrat;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 10px;  
+    line-height: 1.9;
+  }
+  #aboutus{
+    margin-left: 35%;
+  }
+  .chefx{
+    margin-left:-90PX ;
+
+  }
+  .imgallmemeber{
+    width:350px;
+    margin-left:20px;
+   }
+   .gridcontainer {
+     width: 100%;
+    display:block;
+    margin-left: 1%;
+    
+  }
+  .gridcontainer img{
+    width: 00px;
+  }
+  .DETAILS-part h1{
+    margin-top: 10px;
+   font-size: 33px;
+  width: 100%;
+  margin-left: 100px;
+  }
+  .ratings {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 500px){
+#hamburger-icon {
+  position: relative;
+  left:24%;
+  margin: auto;
+
+}
+.DETAILS-part {
+  display: block;
+  grid-template-columns: auto auto auto;
+  font-family: Montserrat, sans-serif;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 448px;
+  width: 80%;
+  border: 1px solid;
+  border-radius: 19px;
+  font-size: 10px; ;
+ 
+}
+.grid-aboutus p {
+  font-family: Montserrat;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 10px;  
+  line-height: 1.9;
+}
+#aboutus{
+  margin-left: 35%;
+}
+.chefx{
+  margin-left:-80PX ;
+}
+.chefx img{
+  width: 250px;
+}
+.imgallmemeber{
+  width:250px;
+  margin-left:20px;
+ }
+ .gridcontainer {
+   width: 100%;
+  display:block;
+  margin-left: 1%;
+  
+}
+.gridcontainer img{
+  width: 00px;
+}
+.DETAILS-part h1{
+  margin-top: 10px;
+ font-size: 30px;
+width: 100%;
+margin-left: 100px;
+}
+.ratings {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 250px;
+}
+.titls{
+  font-size: 14px;  
+}
+.DETAILS-part P{
+  font-size: 10px;
+}
+
+.linebetween3 {
+  width: 154px;
+  height: 1px;
+  background-color: black;
+  
+  
+}
+}
