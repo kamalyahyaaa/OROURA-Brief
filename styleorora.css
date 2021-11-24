@@ -343,55 +343,10 @@ margin-left: 200px;
   margin-left: 130px;
   font-family: roboto, sans-serif;
 }
-
-.form-footer input[type="text"] {
-  margin-top: 10px;
-  width: 256px;
-  height: 46px;
-  margin-left: 1250px;
-  border: none;
-  border-radius: 16px 16px 16px 16px;
-  outline: none;
-  padding-left: 10px;
-}
-::placeholder {
-  font-size: 20px;
-  padding-left: 10px;
-  font-style: italic;
-}
-footer form input:hover {
-  background-color: #e7e1db;
-}
-.form-footer input[type="submit"] {
-  width: 200px;
-  height: 50px;
-  border-radius: 16px 16px 16px 16px;
-  color: white;
-  background-color: #5fb924;
-}
-h5 {
-  color: white;
-  font-size: 33px;
-}
-
-.containre {
-  display: grid;
-  grid-auto-columns: auto auto auto;
-  grid-template-areas: "links contact times location";
-}
-.links {
-  grid-area: links;
-}
-.contact {
-  grid-area: contact;
-}
-.times {
-  grid-area: times;
-}
-.img-a {
-  grid-area: location;
-}
 /* aicha work */
+.MENU{
+  margin-left: 5%;
+}
 .TITLE {
   color: #ff7e00;
   margin-top: 40px;
@@ -442,6 +397,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
+/* BURGER */
 .VEGAN-BLACK-BEAN-BURGER {
   margin-top: 20px;
   height: 284px;
@@ -947,6 +903,22 @@ margin-left: -400px;
   text-underline-offset: 0.5rem;
 
 }
+.btn1 {
+  padding: 7px 20px;
+  background-color: transparent;
+  position: absolute;
+  border: 1.9px solid;
+  border-radius: 30px;
+  margin-left: 70%;
+  box-shadow: 0px 3px #ff7e00;
+ 
+}
+.btn1:hover {
+ 
+  border: 3px solid;
+  color: #ff7e00;
+  
+}
 
 /* aicha work */
 /* foooterstart */
@@ -1065,4 +1037,304 @@ margin-left: -400px;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+  .MENU{
+    margin-left: 17%;
+  }
+  .TITLE {
+    color: #ff7e00;
+    margin-top: 40px;
+    margin-left:1000px;
+    font-size: 25px;
+    font-family: roboto, sans-serif;
+  }
+  h3 {
+    color: #5fb924;
+    margin-left: 500px;
+    font-style: Bold;
+    font-size: 26px;
+  }
+  .PRICE {
+    color: black;
+    margin-left: 1050px;
+    font-style: Medium;
+    font-size: 44px;
+    margin-top: -60px;
+    font-family: Rubik, sans-serif;
+  }
+  .VEGAN-Oroura-Sushi {
+    height: 284px;
+    width: 1200PX;
+    border: 1px solid;
+    border-radius: 19px;
+  }
+  .ingredient {
+    display: flex;
+    flex-direction: column;
+  }
+  h5 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-style: Bold;
+    line-height: 2;
+  }
+  p {
+    font-size: 24px;
+    line-height: 1, 7;
+  }
+  .img {
+    border-radius: 19px;
+    width: 357px;
+    height: 284px;
+    margin-top: -30px;
+  }
+  .Sushi {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+ 
+  .saras-comment P{
+  margin-left: -200px;
+    margin-top: 20px;
+    font-size: small;
+    font-family: roboto, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .salim-comment P{
+    margin-left: -150px;
+      margin-top: 20px;
+      font-size: small;
+      font-family: roboto, sans-serif;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  .zinbe-comment P{
+    margin-left: -200px;
+      margin-top: 20px;
+      font-size: small;
+      font-family: roboto, sans-serif;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+   
+    .rachid-comment P{
+      margin-left: -150px;
+        margin-top: 20px;
+        font-size: small;
+        font-family: roboto, sans-serif;
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .btn1 {
+        padding: 7px 20px;
+        background-color: transparent;
+        position: absolute;
+        border: 1.9px solid;
+        border-radius: 30px;
+        margin-left: 300px;
+        margin-top: 7px;
+        box-shadow: 0px 3px #ff7e00;
+       
+      }
+      .btn {
+        padding: 7px 20px;
+        background-color: transparent;
+        position: absolute;
+        border: 1.9px solid;
+        border-radius: 30px;
+        margin-left: 70%;
+        box-shadow: 0px 3px #ff7e00;
+       
+      }
+  
 }
+
+@media only screen and (min-width: 300px) {
+  .TITLE {
+    color: #ff7e00;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: roboto, sans-serif;
+  }
+  h3 {
+    color: #5fb924;
+    margin-left: 500px;
+    font-style: Bold;
+    font-size: 20px;
+  }
+  .PRICE {
+    color: black;
+    margin-left: 950px;
+    font-style: Medium;
+    font-size: 44px;
+    margin-top: -60px;
+    font-family: Rubik, sans-serif;
+  }
+  .VEGAN-Oroura-Sushi {
+    height: 184px;
+    width: 1100PX;
+    border: 1px solid;
+    border-radius: 19px;
+  }
+  h5 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-style: Bold;
+    line-height: 2;
+  }
+ 
+  p {
+
+    font-size: 14px;
+    line-height: 1, 7;
+  }
+  .img {
+    border-radius: 19px;
+    width: 257px;
+    height: 204px;
+    margin-top: -30px;
+  }
+  .Sushi {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+ 
+  .saras-comment P{
+  margin-left:  -8px;
+    margin-top: 20px;
+    font-size: small;
+    font-family: roboto, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .salim-comment P{
+    margin-left: 3px;
+      margin-top: 20px;
+      font-size: small;
+      font-family: roboto, sans-serif;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  .zinbe-comment P{
+    margin-left: 3px;
+      margin-top: 20px;
+      font-size: small;
+      font-family: roboto, sans-serif;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+   
+    .rachid-comment P{
+      margin-left: 3px;
+        margin-top: 20px;
+        font-size: small;
+        font-family: roboto, sans-serif;
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .btn1 {
+        padding: 7px 20px;
+        width: 120px;
+        background-color: transparent;
+        position: absolute;
+        border: 1.9px solid;
+        border-radius: 30px;
+        margin-left: 300px;
+        margin-top: 7px;
+        box-shadow: 0px 3px #ff7e00;
+       
+      }
+      .btncenter {
+        margin: auto;
+        position: absolute;
+        top: 100%;
+        right: 43%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      .btn {
+        
+        font-size: 10px;
+        padding: 7px 30px;
+        width: 120px;
+        background-color: transparent;
+        position: absolute;
+        border: 1.9px solid;
+        border-radius: 30px;
+        margin-left: 70%;
+        box-shadow: 0px 3px #ff7e00;
+       
+      }
+      .VEGAN-BLACK-BEAN-BURGER{
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      
+      .SWEETPOTATO-AND-ONION{
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      .SALAMON {
+        margin-top: 20px;
+        height: 184px;
+        border: 1px solid;
+        border-radius: 19px;
+      }
+      .OROURA-CHIKEN {
+        margin-top: 20px;
+        height: 184px;
+        border: 1px solid;
+        border-radius: 19px;
+      }
+      .BEEF-MEAT-AND-BROCOLI{
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      .YOOW-APPLE {
+        margin-top: 20px;
+        height: 184px;
+        border: 1px solid;
+        border-radius: 19px;
+      }
+      .CHOCOLATE-WAFFLE {
+        margin-top: 20px;
+        height: 184px;
+        border: 1px solid;
+        border-radius: 19px;
+      }
+      .NATUREL-YOGURT-Berry {
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      .SPINASH-JUICE-WITH-BANANA {
+        margin-top: 20px;
+        height: 184px;
+        border: 1px solid;
+        border-radius: 19px;
+      }
+      .PINEAPPLE-JUICE{
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      .barba-juice{
+        margin-top: 20px;
+        height: 184px;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+      .allmemebers {
+       
+        margin-top: 40px;
+        margin-left: 5px;
+      }
+    }
