@@ -21,7 +21,9 @@ nav {
 header{
   z-index: 1;
 }
-
+main{
+  background-color: #c1f79d;
+}
 
 nav ul {
       top: 0;
@@ -1177,12 +1179,16 @@ margin-left: -400px;
     margin-left: 100px;
   }
   .chefx{
-    width: 460px;
+  
+  }
+  .ratings{
+    width: 355px;
+    margin-right:70px ;
   }
   .imgallmemeber{
-   width:643px;
-   height:337.3px ;
-   margin-right: 0px;
+   width:500px;
+  
+   margin-left: 30px;
   }
   .rating-detail {
     display: grid;
