@@ -21,9 +21,7 @@ nav {
 header{
   z-index: 1;
 }
-main{
-  background-color: #c1f79d;
-}
+
 
 nav ul {
       top: 0;
@@ -460,12 +458,7 @@ h3 {
   margin-top: -60px;
   font-family: Rubik, sans-serif;
 }
-.VEGAN-Oroura-Sushi {
-  height: 284px;
-  width: 90%;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .ingredient {
   display: flex;
   flex-direction: column;
@@ -491,12 +484,8 @@ p {
   grid-template-columns: auto auto auto;
 }
 /* BURGER */
-.VEGAN-BLACK-BEAN-BURGER {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
+
 .burger-ingredient {
   display: flex;
   flex-direction: column;
@@ -505,12 +494,9 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.SWEETPOTATO-AND-ONION {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
+
+
 .potato-ingredient {
   display: flex;
   flex-direction: column;
@@ -532,12 +518,7 @@ p {
   border: 3px solid;
   color: #ff7e00;
 }
-.SALAMON {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .Salmon-ingredient {
   display: flex;
   flex-direction: column;
@@ -546,12 +527,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.OROURA-CHIKEN {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .chiken-ingredient {
   display: flex;
   flex-direction: column;
@@ -560,12 +536,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.BEEF-MEAT-AND-BROCOLI {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .beef-ingredient {
   display: flex;
   flex-direction: column;
@@ -574,26 +545,13 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.YOOW-APPLE {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .YOOW-ingredient {
   display: flex;
   flex-direction: column;
 }
-.yoow-apple {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.CHOCOLATE-WAFFLE {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
+
 .waffle-ingredient {
   display: flex;
   flex-direction: column;
@@ -602,12 +560,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.NATUREL-YOGURT-Berry {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .yogurt-ingredient {
   display: flex;
   flex-direction: column;
@@ -616,12 +569,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.SPINASH-JUICE-WITH-BANANA {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .banana-juice-ingredient {
   display: flex;
   flex-direction: column;
@@ -630,12 +578,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.PINEAPPLE-JUICE {
-  margin-top: 20px;
-  height: 284px;
-  border: 1px solid;
-  border-radius: 19px;
-}
+
 .pineapple-ingredient {
   display: flex;
   flex-direction: column;
@@ -683,15 +626,7 @@ h3{
 
 
 }
-.VEGAN-Oroura-Sushi{
-  height: 284px;
-width: 90%;
-border: 1px solid;
-border-radius: 19px;
 
-
-
-}
 .ingredient{
   display: flex;
   flex-direction: column;
@@ -710,15 +645,17 @@ p{
   border-radius: 19px;
   width: 357px;
   height: 284px;
-  margin-top: -40px;
+  margin-top: -20px;
 }
 .Sushi{
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.VEGAN-BLACK-BEAN-BURGER{
-  margin-top: 20px;
-  height: 284px;
+.borderfood{
+  
+align-items: center;
+margin-top: 20px;
+height: auto;
 border: 1px solid;
 border-radius: 19px;
 }
@@ -731,12 +668,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.SWEETPOTATO-AND-ONION{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .potato-ingredient{
 
   display: flex;
@@ -762,12 +694,7 @@ border-radius: 19px;
   color: #ff7e00;
   
 }
-.SALAMON{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .Salmon-ingredient{
 
   display: flex;
@@ -777,12 +704,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.OROURA-CHIKEN{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .chiken-ingredient{
 
   display: flex;
@@ -792,12 +714,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.BEEF-MEAT-AND-BROCOLI{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .beef-ingredient{
 
   display: flex;
@@ -807,12 +724,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.YOOW-APPLE{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .YOOW-ingredient{
 
   display: flex;
@@ -822,12 +734,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.CHOCOLATE-WAFFLE{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .waffle-ingredient{
 
   display: flex;
@@ -837,12 +744,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.NATUREL-YOGURT-Berry {
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .yogurt-ingredient{
 
   display: flex;
@@ -852,12 +754,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.SPINASH-JUICE-WITH-BANANA {
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .banana-juice-ingredient{
 
   display: flex;
@@ -867,12 +764,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.PINEAPPLE-JUICE{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .pineapple-ingredient{
 
   display: flex;
@@ -882,12 +774,7 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.barba-juice{
-  margin-top: 20px;
-  height: 284px;
-border: 1px solid;
-border-radius: 19px;
-}
+
 .BARBA-ingredient{
 
   display: flex;
@@ -1225,12 +1112,7 @@ margin-left: -400px;
     margin-top: -60px;
     font-family: Rubik, sans-serif;
   }
-  .VEGAN-Oroura-Sushi {
-    height: 284px;
-    width: 1200PX;
-    border: 1px solid;
-    border-radius: 19px;
-  }
+ 
   .ingredient {
     display: flex;
     flex-direction: column;
@@ -1335,12 +1217,7 @@ margin-left: -400px;
     margin-top: -60px;
     font-family: Rubik, sans-serif;
   }
-  .VEGAN-Oroura-Sushi {
-    height: 184px;
-    width: 1100PX;
-    border: 1px solid;
-    border-radius: 19px;
-  }
+ 
   h5 {
     margin-top: 20px;
     font-size: 24px;
@@ -1430,73 +1307,12 @@ margin-left: -400px;
         box-shadow: 0px 3px #ff7e00;
        
       }
-      .VEGAN-BLACK-BEAN-BURGER{
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
       
-      .SWEETPOTATO-AND-ONION{
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
-      .SALAMON {
-        margin-top: 20px;
-        height: 184px;
-        border: 1px solid;
-        border-radius: 19px;
-      }
-      .OROURA-CHIKEN {
-        margin-top: 20px;
-        height: 184px;
-        border: 1px solid;
-        border-radius: 19px;
-      }
-      .BEEF-MEAT-AND-BROCOLI{
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
-      .YOOW-APPLE {
-        margin-top: 20px;
-        height: 184px;
-        border: 1px solid;
-        border-radius: 19px;
-      }
-      .CHOCOLATE-WAFFLE {
-        margin-top: 20px;
-        height: 184px;
-        border: 1px solid;
-        border-radius: 19px;
-      }
-      .NATUREL-YOGURT-Berry {
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
-      .SPINASH-JUICE-WITH-BANANA {
-        margin-top: 20px;
-        height: 184px;
-        border: 1px solid;
-        border-radius: 19px;
-      }
-      .PINEAPPLE-JUICE{
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
-      .barba-juice{
-        margin-top: 20px;
-        height: 184px;
-      border: 1px solid;
-      border-radius: 19px;
-      }
+      
+
+    
+      
+      
       .allmemebers {
        
         margin-top: 40px;
