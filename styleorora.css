@@ -873,6 +873,28 @@ border-radius: 19px;
   border: 3px solid;
   color: #ff7e00;
 }
+<<<<<<< HEAD
+/* desktop */
+.allmemebers{
+    margin: 0 auto;
+    background: url(./assets/allmemebers.png) no-repeat;
+    align-items: center;
+    justify-content: center;
+    height:684px;
+    width: auto;
+    background-size: contain;
+    
+    
+  }
+  .imgallmemeber{
+    
+    margin: 0 auto;
+  
+  
+    
+  }
+=======
+>>>>>>> 7cba12d9bd5754da0079dfbbedb6009ec5a3f8a9
 
 /* aicha work end */
 /* footer start */
