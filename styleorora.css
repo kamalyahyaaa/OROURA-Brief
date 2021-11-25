@@ -937,6 +937,7 @@ footer {
 }
 .restaurants{
   position: absolute;
+  display: grid;
 
 }
 .restaurants li {
