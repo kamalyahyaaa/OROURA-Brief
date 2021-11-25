@@ -417,9 +417,6 @@ header {
 .allmemebers img {
   margin-left: 8%;
 }
-main{
-  background-color: aquamarine;
-}
 .VEGAN-TITLE {
   color: #ff7e00;
   margin-top: 40px;
@@ -437,12 +434,10 @@ main{
   font-family: roboto, sans-serif;
 }
 h3 {
-  
   color: #5fb924;
-  text-align: center;
+  margin-left: 700px;
   font-style: Bold;
-  font-size: 20px;
-  
+  font-size: 33px;
 }
 
 .ingredient {
@@ -586,16 +581,12 @@ HEAD .TITLE {
   margin-left: 130px;
   font-family: roboto, sans-serif;
 }
-<<<<<<< HEAD
-
-=======
 h3 {
   color: #5fb924;
   margin-left: 700px;
   font-style: Bold;
   font-size: 33px;
 }
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
 
 .ingredient {
   display: flex;
@@ -613,35 +604,9 @@ p {
 }
 .img {
   border-radius: 19px;
-<<<<<<< HEAD
-  width: 257px;
-  
-  margin-top: -20px;
-  
-  
-
-}
-.borderfood{
-  
-align-items: center;
-width: 70%;
-margin: 0 auto;
-height: auto;
-border: 1px solid;
-border-radius: 19px;
-}
-.price{
-  margin-top: 160px;
-  padding-right:50px;
-  font-family: montserrat , sans-serif;
-  font-weight: 500;
-  width: 35px;
-
-=======
   width: 357px;
   height: 284px;
   margin-top: -20px;
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
 }
 .Sushi {
   display: grid;
@@ -917,7 +882,7 @@ footer {
 .footercontainer {
   display: grid;
   grid-gap: 3px;
-  grid-template-columns: 300px 90px auto auto ;
+  grid-template-columns: 300px 90px auto auto auto ;
     
 }
 .contactusfooter {
@@ -970,15 +935,29 @@ footer {
 .openingtime p {
   margin-left: 60px;
 }
-.restaurants{
-  position: absolute;
-  display: grid;
+.resstaurant{
+position: absolute;
+margin-left: 83%;
+margin-top: 70px;
+} 
+.resstaurant h1 {
+   font-family: roboto, sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 
-}
-.restaurants li {
+.resstaurant li {
   list-style: inside url(./assets/Vector\ list\ style.png);
+  margin-left: 30%;
 }
-.restaurants li a {
+.resstaurant li a {
+  margin-left: 10%;
   font-family: roboto, sans-serif;
   font-weight: 400;
   color: white;
@@ -986,13 +965,12 @@ footer {
   text-align: justify;
   line-height: 3.4;
 }
-.sitelinks li a:hover {
+.resstaurant li a:hover {
   color: #ff7e00;
 }
 /* footerend */
 
 @media only screen and (max-width: 700px) {
-  
   .navlinksdesktop {
     display: none;
   }
@@ -1071,38 +1049,12 @@ footer {
     font-family: roboto, sans-serif;
   }
   h3 {
-  
     color: #5fb924;
-    text-align: center;
-    margin: 0 auto;
+    margin-left: 500px;
     font-style: Bold;
-    font-size: 20px;
-    
+    font-size: 26px;
   }
-<<<<<<< HEAD
-  .imgmeal {
-    border-radius: 19px;
-    width:240px;
-    height:200px ;
-  
-    margin-top: 0px;
-    
-    
-  }
-  /* media@700 */
-  .borderfood{
-  
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    height: auto;
-    border: 1px solid;
-    border-radius: 19px;
-    }
-  
-=======
 
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
   .ingredient {
     display: flex;
     flex-direction: column;
@@ -1189,7 +1141,12 @@ footer {
     margin-left: 100px;
     font-family: roboto, sans-serif;
   }
-  
+  h3 {
+    color: #5fb924;
+    margin-left: 500px;
+    font-style: Bold;
+    font-size: 20px;
+  }
 
   h5 {
     margin-top: 20px;
@@ -1238,37 +1195,6 @@ footer {
     grid-template-columns: auto auto;
   }
 
-<<<<<<< HEAD
-    
-      
-      
-      .allmemebers {
-       
-        margin-top: 40px;
-        margin-left: 5px;
-      }
-    }
-
-@media only screen and (max-width: 600px){
-
-  .imgmeal {
-    border-radius: 19px;
-    width:200px;
-    height:180px ;
-    padding-right: 6px;
-  
-    margin-top: 0px;
-    
-    
-  }
-  /* media600 */
-#hamburger-icon {
-  position: relative;
-  left:28%;
-  margin: auto;
- 
-  
-=======
   .rachid-comment P {
     margin-left: 3px;
     margin-top: 20px;
@@ -1307,7 +1233,6 @@ footer {
     margin-left: 70%;
     box-shadow: 0px 3px #ff7e00;
   }
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
 
   .allmemebers {
     margin-top: 40px;
@@ -1322,20 +1247,6 @@ footer {
     margin: auto;
   }
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 500px){
-  .imgmeal {
-    border-radius: 19px;
-    width:140px;
-    height:120px ;
-    padding-right: 6px;
-  
-    margin-top: 0px;
-    
-    
-  }
-}
-=======
 @media only screen and (max-width: 500px) {
   #hamburger-icon {
     position: relative;
@@ -1381,7 +1292,6 @@ footer {
   }
 }
 @media only screen and (max-width: 500px) {
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
   #hamburger-icon {
     position: relative;
     left: 24%;
@@ -1394,7 +1304,7 @@ footer {
     margin-top: 30px;
     margin-left: 10px;
     height: 648px;
-    width: 90%;
+    width: 80%;
     border: 1px solid;
     border-radius: 19px;
     font-size: 10px;
@@ -1409,19 +1319,6 @@ footer {
   #aboutus {
     margin-left: 35%;
   }
-<<<<<<< HEAD
-  .chefx{
-    margin-left:-50PX ;
-
-  }
-  .imgallmemeber{
-    width:450px;
-    margin-left:20px;
-   }
-   .gridcontainer {
-     width: 100%;
-    display:block;
-=======
   .chefx {
     margin-left: -90px;
   }
@@ -1432,15 +1329,11 @@ footer {
   .gridcontainer {
     width: 100%;
     display: block;
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
     margin-left: 1%;
   }
   .gridcontainer img {
     width: 00px;
   }
-<<<<<<< HEAD
-}
-=======
   .DETAILS-part h1 {
     margin-top: 10px;
     font-size: 33px;
@@ -1522,4 +1415,3 @@ footer {
     background-color: black;
   }
 }
->>>>>>> ddbc845ccda6a5d4afe23ad4194f006cd543e653
