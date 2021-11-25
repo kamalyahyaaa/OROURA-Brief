@@ -471,7 +471,7 @@ p {
 
 .Sushi {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 /* BURGER */
 
@@ -482,7 +482,7 @@ p {
 }
 .burger {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 
@@ -491,10 +491,7 @@ p {
   display: flex;
   flex-direction: column;
 }
-.potato {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 .btn {
   padding: 7px 20px;
   background-color: transparent;
@@ -513,28 +510,18 @@ p {
   display: flex;
   flex-direction: column;
 }
-.salmon {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
 
 .chiken-ingredient {
   display: flex;
   flex-direction: column;
 }
-.chiken {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .beef-ingredient {
   display: flex;
   flex-direction: column;
 }
-.beef {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .YOOW-ingredient {
   display: flex;
@@ -546,37 +533,25 @@ p {
   display: flex;
   flex-direction: column;
 }
-.waffle {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .yogurt-ingredient {
   display: flex;
   flex-direction: column;
 }
-.yogurt {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .banana-juice-ingredient {
   display: flex;
   flex-direction: column;
 }
-.banana-juice {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .pineapple-ingredient {
   display: flex;
   flex-direction: column;
 }
-.pineapple {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 .barba-juice {
   margin-top: 20px;
   height: 284px;
@@ -587,10 +562,7 @@ p {
   display: flex;
   flex-direction: column;
 }
-.barba {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 /* aicha work */
  HEAD
@@ -622,15 +594,18 @@ p{
   font-size: 24px;
   line-height: 1,7;
 }
-.img{
-  border-radius: 19px;
-  width: 357px;
-  height: 284px;
-  margin-top: -20px;
-}
+
 .Sushi{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
+}
+.imgmeal {
+  border-radius: 19px;
+  width: 257px;
+  height: 204px;
+  margin-top: -20px;
+  
+  box-shadow:0px 0px 12px 3Px #b3671a ;
 }
 .borderfood{
   
@@ -643,6 +618,14 @@ height: auto;
 border: 1px solid;
 border-radius: 19px;
 }
+.price{
+  margin-top: 160px;
+  padding-right:50px;
+  font-family: montserrat , sans-serif;
+  font-weight: 500;
+  width: 35px;
+
+}
 .burger-ingredient{
 
   display: flex;
@@ -650,7 +633,7 @@ border-radius: 19px;
 }
 .burger{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 
 .potato-ingredient{
@@ -658,10 +641,7 @@ border-radius: 19px;
   display: flex;
   flex-direction: column;
 }
-.potato{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 .btn {
   padding: 7px 20px;
   background-color: transparent;
@@ -684,90 +664,63 @@ border-radius: 19px;
   display: flex;
   flex-direction: column;
 }
-.salmon{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .chiken-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.chiken{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .beef-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.beef{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .YOOW-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.yoow-apple{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .waffle-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.waffle{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .yogurt-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.yogurt{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .banana-juice-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.banana-juice{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .pineapple-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.pineapple{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 
 .BARBA-ingredient{
 
   display: flex;
   flex-direction: column;
 }
-.barba{
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+
 /* comments */
 .Sara{
   width: 100px;
@@ -1099,15 +1052,10 @@ margin-left: -400px;
     font-size: 24px;
     line-height: 1, 7;
   }
-  .img {
-    border-radius: 19px;
-    width: 357px;
-    height: 284px;
-    margin-top: -30px;
-  }
+  
   .Sushi {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
  
   .saras-comment P{
@@ -1195,15 +1143,10 @@ margin-left: -400px;
     font-size: 14px;
     line-height: 1, 7;
   }
-  .img {
-    border-radius: 19px;
-    width: 257px;
-    height: 204px;
-    margin-top: -30px;
-  }
+ 
   .Sushi {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
  
   .saras-comment P{
