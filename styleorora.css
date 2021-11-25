@@ -623,6 +623,7 @@ border-radius: 19px;
   padding-right:50px;
   font-family: montserrat , sans-serif;
   font-weight: 500;
+  font-size: 23px;
   width: 35px;
 
 }
@@ -812,15 +813,8 @@ margin-left: -400px;
   grid-template-columns: auto auto;
 }
 
-.com{
-  margin-top: 50px;
-  font-family: Montserrat, sans-serif;
-  margin-left: 700px;
-  text-decoration: underline 2px;
-  text-decoration-color: #ff7e00;
-  text-underline-offset: 0.5rem;
 
-}
+
 
 /* aicha work */
 /* foooterstart */
@@ -844,7 +838,8 @@ margin-left: -400px;
 }
 /* desktop */
 .allmemebers{
-   
+   display: flex;
+   align-items: center;
     
     
   }
@@ -951,6 +946,7 @@ margin-left: -400px;
    margin-left: 60px;
  }
 
+
 .resstaurant{
 position: absolute;
 margin-left: 83%;
@@ -984,6 +980,8 @@ line-height: 3.4;
 .resstaurant li a:hover {
 color: #ff7e00;
 }
+
+
 /* footerend */
 
 
@@ -992,6 +990,10 @@ color: #ff7e00;
 
 
 @media only screen and (max-width: 700px) {
+  .imgallmemeber{
+    width:550px;
+    
+   }
   
   .navlinksdesktop {
     display: none;
@@ -1179,11 +1181,16 @@ color: #ff7e00;
         box-shadow: 0px 3px #ff7e00;
        
       }
+      
   
 }
 
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px  ) {
+
+
+
+  
   .TITLE {
     color: #ff7e00;
     margin-top: 40px;
@@ -1279,6 +1286,7 @@ color: #ff7e00;
       }
       
       
+      
 
     
       
@@ -1307,6 +1315,10 @@ color: #ff7e00;
   
 
 }
+.imgallmemeber{
+  width:450px;
+  
+ }
 }
 @media only screen and (max-width: 500px){
   .imgmeal {
