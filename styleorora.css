@@ -835,6 +835,26 @@ margin-left: -400px;
   color: #ff7e00;
   
 }
+/* desktop */
+.allmemebers{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./assets/allmemebers.png);
+    height:684px;
+    width: auto;
+    background-size: contain;
+    
+    
+  }
+  .imgallmemeber{
+    
+    margin: 0 auto;
+  
+  
+    
+  }
 
 /* aicha work end */
 /* footer start */
@@ -1007,17 +1027,7 @@ margin-left: -400px;
     width: 355px;
     margin-right:70px ;
   }
-  .imgallmemeber{
-    text-align: center;
-   width:400px;
-  
-   
-  }
-  .allmemebers{
-    display: inline-block;
-    
 
-  }
   .rating-detail {
     display: grid;
     grid-template-columns: 1fr;
@@ -1239,11 +1249,7 @@ margin-left: -400px;
     
       
       
-      .allmemebers {
-       
-        margin-top: 40px;
-        margin-left: 5px;
-      }
+     
     }
 
 @media only screen and (max-width: 600px){
