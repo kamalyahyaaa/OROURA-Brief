@@ -430,6 +430,9 @@ margin-left: 200px;
 
   
 }
+main{
+  background-color: aquamarine;
+}
 .VEGAN-TITLE {
   color: #ff7e00;
   margin-top: 40px;
@@ -447,10 +450,12 @@ margin-left: 200px;
   font-family: roboto, sans-serif;
 }
 h3 {
+  
   color: #5fb924;
-  margin-left: 700px;
+  text-align: center;
   font-style: Bold;
-  font-size: 33px;
+  font-size: 20px;
+  
 }
 
 
@@ -572,12 +577,7 @@ p {
   margin-left: 130px;
   font-family: roboto,sans-serif;
 }
-h3{
-  color:#5FB924;
-  margin-left:700px;
-  font-style: Bold;
-  font-size: 33px;
-}
+
 
 
 .ingredient{
@@ -602,18 +602,17 @@ p{
 .imgmeal {
   border-radius: 19px;
   width: 257px;
-  height: 204px;
+  
   margin-top: -20px;
   
-  box-shadow:0px 0px 12px 3Px #b3671a ;
+  
+
 }
 .borderfood{
   
 align-items: center;
 width: 70%;
-margin-left:190px ;
-
-margin-top: 20px;
+margin: 0 auto;
 height: auto;
 border: 1px solid;
 border-radius: 19px;
@@ -944,6 +943,7 @@ margin-left: -400px;
 
 
 @media only screen and (max-width: 700px) {
+  
   .navlinksdesktop {
     display: none;
   
@@ -1032,11 +1032,33 @@ margin-left: -400px;
     font-family: roboto, sans-serif;
   }
   h3 {
+  
     color: #5fb924;
-    margin-left: 500px;
+    text-align: center;
+    margin: 0 auto;
     font-style: Bold;
-    font-size: 26px;
+    font-size: 20px;
+    
   }
+  .imgmeal {
+    border-radius: 19px;
+    width:240px;
+    height:200px ;
+  
+    margin-top: 0px;
+    
+    
+  }
+  /* media@700 */
+  .borderfood{
+  
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid;
+    border-radius: 19px;
+    }
   
   .ingredient {
     display: flex;
@@ -1123,12 +1145,7 @@ margin-left: -400px;
     margin-left: 100px;
     font-family: roboto, sans-serif;
   }
-  h3 {
-    color: #5fb924;
-    margin-left: 500px;
-    font-style: Bold;
-    font-size: 20px;
-  }
+  
 
  
   h5 {
@@ -1229,6 +1246,18 @@ margin-left: -400px;
     }
 
 @media only screen and (max-width: 600px){
+
+  .imgmeal {
+    border-radius: 19px;
+    width:200px;
+    height:180px ;
+    padding-right: 6px;
+  
+    margin-top: 0px;
+    
+    
+  }
+  /* media600 */
 #hamburger-icon {
   position: relative;
   left:28%;
@@ -1239,6 +1268,16 @@ margin-left: -400px;
 }
 }
 @media only screen and (max-width: 500px){
+  .imgmeal {
+    border-radius: 19px;
+    width:140px;
+    height:120px ;
+    padding-right: 6px;
+  
+    margin-top: 0px;
+    
+    
+  }
   #hamburger-icon {
     position: relative;
     left:24%;
@@ -1285,137 +1324,4 @@ margin-left: -400px;
   .gridcontainer img{
     width: 00px;
   }
-}
-@media only screen and (max-width: 500px){
-  #hamburger-icon {
-    position: relative;
-    left:24%;
-    margin: auto;
-
-  }
-  .DETAILS-part {
-    display: block;
-    grid-template-columns: auto auto auto;
-    font-family: Montserrat, sans-serif;
-    margin-top: 30px;
-    margin-left: 10px;
-    height: 648px;
-    width: 80%;
-    border: 1px solid;
-    border-radius: 19px;
-    font-size: 10px; ;
-   
-  }
-  .grid-aboutus p {
-    font-family: Montserrat;
-    font-weight: 300;
-    text-align: justify;
-    font-size: 10px;  
-    line-height: 1.9;
-  }
-  #aboutus{
-    margin-left: 35%;
-  }
-  .chefx{
-    margin-left:-90PX ;
-
-  }
-  .imgallmemeber{
-    width:350px;
-    margin-left:20px;
-   }
-   .gridcontainer {
-     width: 100%;
-    display:block;
-    margin-left: 1%;
-    
-  }
-  .gridcontainer img{
-    width: 00px;
-  }
-  .DETAILS-part h1{
-    margin-top: 10px;
-   font-size: 33px;
-  width: 100%;
-  margin-left: 100px;
-  }
-  .ratings {
-    margin-left: 20px;
-    margin-top: 30px;
-  }
-}
-@media only screen and (max-width: 500px){
-#hamburger-icon {
-  position: relative;
-  left:24%;
-  margin: auto;
-
-}
-.DETAILS-part {
-  display: block;
-  grid-template-columns: auto auto auto;
-  font-family: Montserrat, sans-serif;
-  margin-top: 30px;
-  margin-left: 10px;
-  height: 448px;
-  width: 80%;
-  border: 1px solid;
-  border-radius: 19px;
-  font-size: 10px; ;
- 
-}
-.grid-aboutus p {
-  font-family: Montserrat;
-  font-weight: 300;
-  text-align: justify;
-  font-size: 10px;  
-  line-height: 1.9;
-}
-#aboutus{
-  margin-left: 35%;
-}
-.chefx{
-  margin-left:-80PX ;
-}
-.chefx img{
-  width: 250px;
-}
-.imgallmemeber{
-  width:250px;
-  margin-left:20px;
- }
- .gridcontainer {
-   width: 100%;
-  display:block;
-  margin-left: 1%;
-  
-}
-.gridcontainer img{
-  width: 00px;
-}
-.DETAILS-part h1{
-  margin-top: 10px;
- font-size: 30px;
-width: 100%;
-margin-left: 100px;
-}
-.ratings {
-  margin-left: 20px;
-  margin-top: 30px;
-  width: 250px;
-}
-.titls{
-  font-size: 14px;  
-}
-.DETAILS-part P{
-  font-size: 10px;
-}
-
-.linebetween3 {
-  width: 154px;
-  height: 1px;
-  background-color: black;
-  
-  
-}
 }
