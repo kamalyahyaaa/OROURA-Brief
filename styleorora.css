@@ -844,10 +844,9 @@ margin-left: -400px;
 /* desktop */
 .allmemebers{
     margin: 0 auto;
-    display: flex;
+    background: url(./assets/allmemebers.png) no-repeat;
     align-items: center;
     justify-content: center;
-    background: url(./assets/allmemebers.png);
     height:684px;
     width: auto;
     background-size: contain;
