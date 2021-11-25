@@ -730,6 +730,7 @@ border-radius: 19px;
 .saras-comment{
  background-color: rgba(228, 220, 220, 0.747);
  border-radius: 360px;
+ 
   margin-top: 10px;
   margin-left: 200px;
   font-family: roboto, sans-serif;
@@ -949,6 +950,40 @@ margin-left: -400px;
  .openingtime p{
    margin-left: 60px;
  }
+
+.resstaurant{
+position: absolute;
+margin-left: 83%;
+margin-top: 70px;
+} 
+.resstaurant h1 {
+font-family: roboto, sans-serif;
+font-weight: 400;
+color: white;
+font-size: 2em;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.resstaurant li {
+list-style: inside url(./assets/Vector\ list\ style.png);
+margin-left: 30%;
+}
+.resstaurant li a {
+margin-left: 10%;
+font-family: roboto, sans-serif;
+font-weight: 400;
+color: white;
+font-size: 18px;
+text-align: justify;
+line-height: 3.4;
+}
+.resstaurant li a:hover {
+color: #ff7e00;
+}
 /* footerend */
 
 
