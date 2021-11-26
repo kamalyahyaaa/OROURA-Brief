@@ -651,7 +651,6 @@ border-radius: 19px;
   border-radius: 30px;
   margin-left: 50%;
   box-shadow: 0px 3px #ff7e00;
-  margin-top: 10px;
  
 }
 .btn:hover {
@@ -732,8 +731,6 @@ border-radius: 19px;
 .saras-comment{
  background-color: rgba(228, 220, 220, 0.747);
  border-radius: 360px;
- margin-right: 200px;
- width: 70%;
  
   margin-top: 10px;
   margin-left: 200px;
@@ -762,10 +759,9 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
-  margin-right: 200px;
 }
 .salim-comment P{
-
+margin-left: -400px;
   margin-top: 20px;
   font-size: small;
   font-family: roboto, sans-serif;
@@ -785,7 +781,6 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
-  margin-right: 400px;
 }
 .zinbe-comment P{
 margin-left: -400px;
@@ -808,7 +803,6 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
-  margin-right: 200px;
 }
 .rachid-comment P{
 margin-left: -400px;
@@ -834,7 +828,6 @@ margin-left: -400px;
   border-radius: 30px;
   margin-left: 70%;
   box-shadow: 0px 3px #ff7e00;
-  margin-top: 10px;
  
 }
 .btn1:hover {
