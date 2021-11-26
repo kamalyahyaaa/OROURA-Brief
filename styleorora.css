@@ -425,9 +425,6 @@ margin-left: 200px;
   margin-left: 100px;
 }
 
-main{
-  background-color: aquamarine;
-}
 .VEGAN-TITLE {
   color: #ff7e00;
   margin-top: 40px;
@@ -731,12 +728,20 @@ border-radius: 19px;
 .saras-comment{
  background-color: rgba(228, 220, 220, 0.747);
  border-radius: 360px;
-  margin-top: 10px;
-  margin-left: 200px;
+  
+  width: 60%;
+  margin: 0 auto;
+  line-height: ;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
 }
+.commentcontainer{
+  padding-bottom: 70px;
+  padding-top: 40px;
+  line-height: ;
+}
+
 .saras-comment P{
 margin-left: -400px;
   margin-top: 20px;
