@@ -169,7 +169,7 @@ header{
   top: 50px;
   right: 0px;
 
-  height: calc(40vh - 40px);
+  height: calc(40vh - 0px);
   width: 1000%;
   background-color: white;
 }
@@ -345,7 +345,7 @@ margin-left: 200px;
     width: 1px;
     height: 264px;
     background-color: black;
-    margin-top: 116px;
+    margin-top: 16px;
 }
  .rating-detail {
    display: grid;
@@ -362,10 +362,6 @@ margin-left: 200px;
   
    margin-top:75px;
    line-height: 2;
- }
- .ratings {
-   margin-left: 90px;
-   margin-top: 30px;
  }
  .detail {
    margin-top: 30px;
@@ -399,7 +395,7 @@ margin-left: 200px;
   position: absolute;
 }
 .ratings {
-  margin-left: 90px;
+  margin-left: 25%;
   margin-top: 30px;
 }
 .detail {
@@ -410,11 +406,12 @@ margin-left: 200px;
   grid-template-columns: auto auto;
 }
 .h2 {
+ 
   font-family: Montserrat, sans-serif;
   font-weight: 700;
-  padding-top: 24px;
+  padding-top: 4px;
   text-align: center;
-  text-decoration: underline 2px;
+  text-decoration: underline 3px;
   text-decoration-color: #ff7e00;
   text-underline-offset: 0.5rem;
 }
@@ -440,6 +437,7 @@ margin-left: 200px;
   margin-top: 40px;
   margin-left: 130px;
   font-family: roboto, sans-serif;
+  
 }
 h3 {
   
@@ -454,6 +452,7 @@ h3 {
 .ingredient {
   display: flex;
   flex-direction: column;
+  
 }
 h5 {
   margin-top: 40px;
@@ -476,10 +475,12 @@ p {
 .burger-ingredient {
   display: flex;
   flex-direction: column;
+ 
 }
 .burger {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  
 }
 
 
@@ -727,7 +728,7 @@ border-radius: 19px;
   border-radius: 360PX;
 }
 .saras-comment{
- background-color: rgba(228, 220, 220, 0.747);
+ background-color: rgb(247, 253, 242);
  border-radius: 360px;
   width: 60%;
   margin: 0 auto;
@@ -740,8 +741,9 @@ border-radius: 19px;
   grid-template-columns: auto auto;
 }
 .saras-comment P{
-  
+  font-size:15px;
   margin-right: 400px;
+  margin-left: 30px;
 }
 .commentcontainer{
   padding-bottom: 70px;
@@ -787,7 +789,7 @@ border-radius: 19px;
   border-radius: 30px;
   margin-left: 70%;
   box-shadow: 0px 3px #ff7e00;
-  margin-top: 10px;
+  margin-top: -60px;
  
 }
 .btn1:hover {
@@ -800,15 +802,14 @@ border-radius: 19px;
 .allmemebers{
    display: flex;
    align-items: center;
+   margin-top: 40px; ;
     
     
   }
   .imgallmemeber{
-    
+  
     margin: 0 auto;
-  
-  
-    
+
   }
 
 /* aicha work end */
@@ -824,6 +825,7 @@ border-radius: 19px;
  .sitelinks {
    position: absolute;
    margin-top: 140px;
+   width: 200px;
  }
  .sitelinks li {
    list-style: inside url(./assets/Vector\ list\ style.png);
@@ -844,7 +846,7 @@ border-radius: 19px;
  .footercontainer {
    display: grid;
    grid-gap: 3px;
-   grid-template-columns: 300px 90px auto;
+   grid-template-columns: 300px 90px auto  ;
    grid-template-areas:
      "h h h h h"
      "j j j j j"
@@ -872,6 +874,7 @@ border-radius: 19px;
  .victor-adrss {
    list-style-image: url(./assets/Vector-adrss.png);
    margin-left: 0px;
+   
  }
  .tele {
    list-style-image: url(./assets/Vector-tele.png);
@@ -950,7 +953,80 @@ color: #ff7e00;
 
 
 @media only screen and (max-width: 700px) {
+  nav {
+    width: 83%;
+  }
+ 
+
+  .price{
+   
+  margin-top: 160px;
+  padding-right:70px;
+ 
+  font-weight: 500;
+  font-size: 23px;
+  width: 35px;
+
+}
+.saras-comment{
+ background-color: rgba(228, 220, 220, 0.747);
+ border-radius: 360px;
+  margin: 0 auto;
+ 
+ width: 100%;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: roboto, sans-serif;
+  
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+
+  .contactusfooter {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 380px;
+    
+  }
+  .openingtime{
+      
+      
+      margin-top: 340px;
+      margin-left: 350px;
+    
+   
+  }
+
+  .imgmap{
+    display: none;
+  }
+  
+  .resstaurant{
+  position: absolute;
+  margin-left:4%;
+  margin-top: 300px;
+  } 
+  .victor-adrss img{
+    display: none;
+  }
+  
+
+  .footercontainer {
+    
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas:
+      "h h h h h"
+      "j j j j j"
+      "d d d d d";
+  }
   .commentcontainer{
+    
     margin: 0 auto;
   }
   .imgallmemeber{
@@ -998,6 +1074,7 @@ color: #ff7e00;
 
   #hamburger-icon {
     display: block;
+    float: right;
    
     
   }
@@ -1090,40 +1167,8 @@ color: #ff7e00;
     grid-template-columns: auto auto auto auto;
   }
  
-  .saras-comment P{
-   
-  margin-left: -200px;
-    margin-top: 20px;
-    font-size: small;
-    font-family: roboto, sans-serif;
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  .salim-comment P{
-    margin-left: -150px;
-      margin-top: 20px;
-      font-size: small;
-      font-family: roboto, sans-serif;
-      display: grid;
-      grid-template-columns: auto auto;
-    }
-  .zinbe-comment P{
-    margin-left: -200px;
-      margin-top: 20px;
-      font-size: small;
-      font-family: roboto, sans-serif;
-      display: grid;
-      grid-template-columns: auto auto;
-    }
-   
-    .rachid-comment P{
-      margin-left: -150px;
-        margin-top: 20px;
-        font-size: small;
-        font-family: roboto, sans-serif;
-        display: grid;
-        grid-template-columns: auto auto;
-      }
+ 
+  
       .btn1 {
         padding: 7px 20px;
         background-color: transparent;
@@ -1145,7 +1190,63 @@ color: #ff7e00;
         box-shadow: 0px 3px #ff7e00;
        
       }
+      margin-left: 17%;
+    }
+    .TITLE {
+      color: #ff7e00;
+      margin-top: 40px;
+      margin-left:1000px;
+      font-size: 25px;
+      font-family: roboto, sans-serif;
+    }
+    h3 {
+    
+      color: #5fb924;
+      text-align: center;
+      margin: 0 auto;
+      font-style: Bold;
+      font-size: 20px;
       
+    }
+    .imgmeal {
+      border-radius: 19px;
+      width:240px;
+      height:200px ;
+    
+      margin-top: 0px;
+      
+      
+    }
+    /* media@700 */
+    .borderfood{
+    
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      height: auto;
+      border: 1px solid;
+      border-radius: 19px;
+      }
+    
+    .ingredient {
+      display: flex;
+      flex-direction: column;
+    }
+    h5 {
+      margin-top: 40px;
+      font-size: 24px;
+      font-style: Bold;
+      line-height: 2;
+    }
+    p {
+      font-size: 24px;
+      line-height: 1, 7;
+    }
+    
+    .Sushi {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
   
 }
 
@@ -1191,31 +1292,7 @@ color: #ff7e00;
     display: grid;
     grid-template-columns: auto auto;
   }
-  .salim-comment P{
-    margin-left: 3px;
-      margin-top: 20px;
-      font-size: small;
-      font-family: roboto, sans-serif;
-      display: grid;
-      grid-template-columns: auto auto;
-    }
-  .zinbe-comment P{
-    margin-left: 3px;
-      margin-top: 20px;
-      font-size: small;
-      font-family: roboto, sans-serif;
-      display: grid;
-      grid-template-columns: auto auto;
-    }
-   
-    .rachid-comment P{
-      margin-left: 3px;
-        margin-top: 20px;
-        font-size: small;
-        font-family: roboto, sans-serif;
-        display: grid;
-        grid-template-columns: auto auto;
-      }
+ 
       .btn1 {
         padding: 7px 20px;
         width: 120px;
@@ -1259,32 +1336,7 @@ color: #ff7e00;
      
     }
 
-@media only screen and (max-width: 600px){
 
-  .imgmeal {
-    border-radius: 19px;
-    width:200px;
-    height:180px ;
-    padding-right: 6px;
-  
-    margin-top: 0px;
-    
-    
-  }
-  /* media600 */
-#hamburger-icon {
-  position: relative;
-  left:0%;
-  margin: auto;
- 
-  
-
-}
-.imgallmemeber{
-  width:450px;
-  
- }
-}
 @media only screen and (max-width: 500px){
   .imgmeal {
     border-radius: 19px;
