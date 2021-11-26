@@ -739,89 +739,38 @@ border-radius: 19px;
   display: grid;
   grid-template-columns: auto auto;
 }
+.saras-comment P{
+  
+  margin-right: 400px;
+}
 .commentcontainer{
   padding-bottom: 70px;
   padding-top: 40px;
+  
  
 }
 
-.saras-comment P{
 
-  margin-top: 20px;
-  font-size: small;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-}
+
 .salim{
   width: 100px;
   height: 100PX;
   border-radius: 360PX;
 }
-.salim-comment{
- background-color: rgba(228, 220, 220, 0.747);
- border-radius: 360px;
-  margin-top: 10px;
-  margin-left: 200px;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-right: 200px;
-}
-.salim-comment P{
 
-  margin-top: 20px;
-  font-size: small;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-}
+
 .zinbe{
   width: 100px;
   height: 100PX;
   border-radius: 360PX;
 }
-.zinbe-comment{
- background-color: rgba(228, 220, 220, 0.747);
- border-radius: 360px;
-  margin-top: 10px;
-  margin-left: 200px;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-right: 400px;
-}
-.zinbe-comment P{
-margin-left: -400px;
-  margin-top: 20px;
-  font-size: small;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-}
+
 .rachid{
   width: 100px;
   height: 100PX;
   border-radius: 360PX;
 }
-.rachid-comment{
- background-color: rgba(228, 220, 220, 0.747);
- border-radius: 360px;
-  margin-top: 10px;
-  margin-left: 200px;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-right: 200px;
-}
-.rachid-comment P{
-margin-left: -400px;
-  margin-top: 20px;
-  font-size: small;
-  font-family: roboto, sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
-}
+
 
 
 
@@ -1001,6 +950,9 @@ color: #ff7e00;
 
 
 @media only screen and (max-width: 700px) {
+  .commentcontainer{
+    margin: 0 auto;
+  }
   .imgallmemeber{
     width:550px;
     
@@ -1139,6 +1091,7 @@ color: #ff7e00;
   }
  
   .saras-comment P{
+   
   margin-left: -200px;
     margin-top: 20px;
     font-size: small;
@@ -1230,6 +1183,7 @@ color: #ff7e00;
   }
  
   .saras-comment P{
+  
   margin-left:  -8px;
     margin-top: 20px;
     font-size: small;
@@ -1269,8 +1223,8 @@ color: #ff7e00;
         position: absolute;
         border: 1.9px solid;
         border-radius: 30px;
-        margin-left: 300px;
-        margin-top: 7px;
+        margin-left: 70%;
+        margin-top: -50px;
         box-shadow: 0px 3px #ff7e00;
        
       }
@@ -1320,7 +1274,7 @@ color: #ff7e00;
   /* media600 */
 #hamburger-icon {
   position: relative;
-  left:28%;
+  left:0%;
   margin: auto;
  
   
@@ -1344,7 +1298,7 @@ color: #ff7e00;
   }
   #hamburger-icon {
     position: relative;
-    left:24%;
+    left:-8%;
     margin: auto;
 
   }
