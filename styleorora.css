@@ -648,6 +648,7 @@ border-radius: 19px;
   border-radius: 30px;
   margin-left: 50%;
   box-shadow: 0px 3px #ff7e00;
+  margin-top: 10px;
  
 }
 .btn:hover {
@@ -728,10 +729,12 @@ border-radius: 19px;
 .saras-comment{
  background-color: rgba(228, 220, 220, 0.747);
  border-radius: 360px;
-  
   width: 60%;
   margin: 0 auto;
-  line-height: ;
+ margin-right: 200px;
+ width: 70%;
+  margin-top: 10px;
+  margin-left: 200px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
@@ -739,11 +742,11 @@ border-radius: 19px;
 .commentcontainer{
   padding-bottom: 70px;
   padding-top: 40px;
-  line-height: ;
+ 
 }
 
 .saras-comment P{
-margin-left: -400px;
+
   margin-top: 20px;
   font-size: small;
   font-family: roboto, sans-serif;
@@ -763,9 +766,10 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
+  margin-right: 200px;
 }
 .salim-comment P{
-margin-left: -400px;
+
   margin-top: 20px;
   font-size: small;
   font-family: roboto, sans-serif;
@@ -785,6 +789,7 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
+  margin-right: 400px;
 }
 .zinbe-comment P{
 margin-left: -400px;
@@ -807,6 +812,7 @@ margin-left: -400px;
   font-family: roboto, sans-serif;
   display: grid;
   grid-template-columns: auto auto;
+  margin-right: 200px;
 }
 .rachid-comment P{
 margin-left: -400px;
@@ -832,6 +838,7 @@ margin-left: -400px;
   border-radius: 30px;
   margin-left: 70%;
   box-shadow: 0px 3px #ff7e00;
+  margin-top: 10px;
  
 }
 .btn1:hover {
@@ -949,7 +956,43 @@ margin-left: -400px;
  .openingtime p{
    margin-left: 60px;
  }
- 
+
+
+.resstaurant{
+position: absolute;
+margin-left: 83%;
+margin-top: 70px;
+} 
+.resstaurant h1 {
+font-family: roboto, sans-serif;
+font-weight: 400;
+color: white;
+font-size: 2em;
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+
+.resstaurant li {
+list-style: inside url(./assets/Vector\ list\ style.png);
+margin-left: 30%;
+}
+.resstaurant li a {
+margin-left: 10%;
+font-family: roboto, sans-serif;
+font-weight: 400;
+color: white;
+font-size: 18px;
+text-align: justify;
+line-height: 3.4;
+}
+.resstaurant li a:hover {
+color: #ff7e00;
+}
+
+
 /* footerend */
 
 
