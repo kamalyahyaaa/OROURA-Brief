@@ -12,7 +12,7 @@
 nav {
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.503);
   position: fixed;
   width: 100%;
   height: 90px;
@@ -640,6 +640,7 @@ border-radius: 19px;
   display: flex;
   flex-direction: column;
 }
+
 
 .btn {
   padding: 7px 20px;
