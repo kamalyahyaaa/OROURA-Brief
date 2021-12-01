@@ -1378,6 +1378,9 @@ color: #ff7e00;
   #aboutus{
     margin-left: 35%;
   }
+  .ratings {
+    margin-left: 25px;
+  }
   .chefx{
     margin-left:-50PX ;
 
@@ -1397,13 +1400,25 @@ color: #ff7e00;
   }
   .price{
    
-    margin-top: 160px;
+    margin-top: 101px;
     padding-right:70px;
    
     font-weight: 500;
-    font-size: 23px;
+    font-size: 20px;
     width: 35px;
   
+  }
+  h5 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: Bold;
+    line-height: 2;
+  }
+  h3 {
+    color: #5fb924;
+    text-align: center;
+    font-style: Bold;
+    font-size: 15px;
   }
   .saras-comment{
    background-color: rgba(228, 220, 220, 0.747);
@@ -1448,9 +1463,18 @@ font-size: 10px;
     .burger {
       display: grid;
       grid-template-columns: auto auto auto auto;
-      
+      height: 120px;
       
     }
+    .borderfood {
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+      height: 150px;
+      border: 1px solid;
+      border-radius: 19px;
+      margin-top: 10px;
+  }
     .imgmap{
       display: none;
     }
