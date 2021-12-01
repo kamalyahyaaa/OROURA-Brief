@@ -1252,7 +1252,7 @@ color: #ff7e00;
 
 
 
-@media only screen and (min-width: 300px  ) {
+@media only screen and (min-width: 375px  ) {
 
 
 
@@ -1260,7 +1260,7 @@ color: #ff7e00;
   .TITLE {
     color: #ff7e00;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 10px;
     font-family: roboto, sans-serif;
   }
   
@@ -1279,10 +1279,14 @@ color: #ff7e00;
     line-height: 1, 7;
   }
  
-  .Sushi {
+  .Sushi  {
     display: grid;
     grid-template-columns: auto auto auto auto;
   }
+  .Sushi p{
+    font-size: 10px;
+  }
+  
  
   .saras-comment P{
   
@@ -1323,10 +1327,29 @@ color: #ff7e00;
         position: absolute;
         border: 1.9px solid;
         border-radius: 30px;
-        margin-left: 70%;
+        margin-left: 66%;
         box-shadow: 0px 3px #ff7e00;
        
       }
+      .burger h5{
+        font-size: 9px;
+        
+      }
+      .burger P{
+        
+        font-size: 9px;
+      }
+      .burger h2{
+        font-size:1PX;
+        color:beige ;
+      }
+      h3 {
+        color: #5fb924;
+        text-align: center;
+        font-style: Bold;
+        font-size: 15px;
+        margin-left: 50px;
+      
       
       
       
@@ -1336,7 +1359,7 @@ color: #ff7e00;
       
      
     }
-
+                                            /* MEDIA 500 */
 
 @media only screen and (max-width: 500px){
   .imgmeal {
@@ -1494,10 +1517,7 @@ font-size: 10px;
       font-size: 10px;
       display: grid;
       grid-template-columns: 1fr ;
-      grid-template-areas:
-        "h h h h h"
-        "j j j j j"
-        "d d d d d";
+      
     }
     .commentcontainer{
       
