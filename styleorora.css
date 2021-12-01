@@ -951,7 +951,7 @@ color: #ff7e00;
 
 
 
-
+                                                /* MEDIA */
 
 @media only screen and (max-width: 700px) {
   nav {
@@ -1351,7 +1351,7 @@ color: #ff7e00;
   }
   #hamburger-icon {
     position: relative;
-    left:-8%;
+    left: 150px;;
     margin: auto;
 
   }
@@ -1395,4 +1395,113 @@ color: #ff7e00;
   .gridcontainer img{
     width: 00px;
   }
+  .price{
+   
+    margin-top: 160px;
+    padding-right:70px;
+   
+    font-weight: 500;
+    font-size: 23px;
+    width: 35px;
+  
+  }
+  .saras-comment{
+   background-color: rgba(228, 220, 220, 0.747);
+   border-radius: 360px;
+    margin: 0 auto;
+   
+   width: 100%;
+   
+    margin-top: 10px;
+    margin-left: 30px;
+  
+    font-family: roboto, sans-serif;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .saras-comment P{
+    font-size:10px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  
+    .contactusfooter {
+      font-family: roboto, sans-serif;
+      font-weight: 400;
+      color: white;
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 380px;
+font-size: 10px;
+      
+    }
+    .openingtime{
+        
+        font-size: 10px;
+        margin-top: 340px;
+        margin-left: 250px;
+      
+     
+    }
+    .burger {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      
+      
+    }
+    .imgmap{
+      display: none;
+    }
+    
+    .resstaurant{
+      font-size: 10px;
+    position: absolute;
+    margin-left:4%;
+    margin-top: 335px;
+    } 
+    .victor-adrss img{
+      display: none;
+    }
+    
+  
+    .footercontainer {
+      font-size: 10px;
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-areas:
+        "h h h h h"
+        "j j j j j"
+        "d d d d d";
+    }
+    .commentcontainer{
+      
+      margin: 0 auto;
+     
+    }
+    .contactusfooter {
+      font-family: roboto, sans-serif;
+      
+      color: white;
+      position: absolute;
+      margin-top: 90px;
+      margin-left: 300px;
+      
+    }
+    .contactusfooter li a {
+      font-family: roboto, sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 10px;
+      
+      margin-left: 7px;
+      color: white;
+      line-height: 3.4;
+    }
+    .sitelinks {
+      position: absolute;
+      margin-top: 80px;
+      width: 200px;
+    }
 }
